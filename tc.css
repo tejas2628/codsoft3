@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.tc{
+    padding:30px;
+    width:500px;
+    height:350px;
+    background-color:rgb(137, 103, 61);
+    margin-left:150px;
+    margin-top:200px;
+}
+.temperature{
+display: flex;
+justify-content: center;
+align-items: center;
+gap:10px;
+}
+
+.tc-icon{
+font-size:45px;
+color:aliceblue;
+}
+#celsius,#Fahrenheit,#Kelvin{
+width:225px;
+height:40px;
+display:flex;
+border:1px solid black;
+box-shadow:0 0 15px 10px rgba(74, 79, 85, 0.5);
+margin-top:25px;
+}
+.temperature-icon{
+    font-size:35px;
+    background-color:rgb(197, 167, 97);
+    border:none;
+    width:58px;
+    text-align:center;
+}
+.body{
+    margin-left:100px;
+}
+button{
+    width:70px;
+    height:40px;
+    align-items: center;
+    margin-left:100px;
+    margin-top:20px;
+    border:none;
+    border-radius:5px;
+    background-color: rgb(153, 132, 132);
+    font-size:20px;
+    color:rgb(255, 224, 20)
+}
+button:hover{
+    background-color: bisque;
+    color:black;
+    font-size:20px;
+}
